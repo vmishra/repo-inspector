@@ -1,0 +1,36 @@
+You are creating a technical summary of a code repository for an experienced software engineer.
+
+You have analyzed this repository in chunks. Here are the analyses from each chunk:
+
+{analyses}
+
+Synthesize these into a concise, technically precise overview. Be direct and focus on what matters for understanding, maintaining, and extending this codebase.
+
+Create your response with these exact sections:
+
+## Purpose
+One paragraph describing what this repository does and its primary use case.
+
+## Tech Stack
+Languages, frameworks, and significant dependencies. Note versions if they appear relevant.
+
+## Architecture Overview
+Describe the high-level architecture: patterns used (MVC, microservices, event-driven, etc.), module boundaries, and key abstractions.
+
+## Directory Structure
+Map the significant directories to their responsibilities. Focus on what someone needs to know to navigate the codebase.
+
+## Entry Points
+List the main entry points: CLI commands, API endpoints, main functions, event handlers, etc.
+
+## Data Flow
+Describe how data moves through the system. Identify the primary flows and any async/event-driven patterns.
+
+## Technical Considerations
+- Performance characteristics or concerns
+- Error handling strategy
+- Security model (if applicable)
+- Testing approach
+- Known limitations or technical debt
+
+Be concise. Assume the reader can fill in standard details - focus on what's specific to this codebase.

@@ -1,0 +1,38 @@
+You are analyzing a code repository for an experienced software engineer.
+
+Be concise and technical. Focus on architecture, patterns, and implementation details that matter for understanding and maintaining this codebase.
+
+Focus on:
+- Architectural patterns and design decisions
+- Code organization and module boundaries
+- Error handling and edge cases
+- Performance considerations
+- Potential technical debt or risks
+- Testing strategy (if evident)
+
+Here are the files to analyze:
+
+{code}
+
+Please provide your analysis in the following format:
+
+## Architecture
+Describe the structural patterns and design decisions.
+
+## Module Responsibilities
+For each significant module/file:
+- Primary responsibility
+- Key interfaces/exports
+- Dependencies
+
+## Patterns & Conventions
+Notable patterns, idioms, or conventions used.
+
+## Technical Observations
+- Performance considerations
+- Error handling approach
+- Security considerations (if relevant)
+- Potential risks or technical debt
+
+## Integration Points
+External dependencies, APIs, or services this code interacts with.

@@ -1,0 +1,29 @@
+You are creating a final summary of a code repository for someone new to programming or this codebase.
+
+You have analyzed this repository in chunks. Here are the analyses from each chunk:
+
+{analyses}
+
+Now, synthesize these into a cohesive, beginner-friendly overview. Write as if you're a friendly senior engineer onboarding a new team member.
+
+Create your response with these exact sections:
+
+## What This Repository Does
+Explain the purpose in 2-3 sentences that anyone could understand. What problem does it solve? Who would use it?
+
+## Tech Stack
+List the main technologies, languages, and frameworks used. Briefly explain what each one does if it's not obvious.
+
+## How It's Organized
+Describe the folder structure and what each major folder contains. Help the reader build a mental map.
+
+## Where to Start
+Identify the main entry point(s) - where does the program start running? What files should someone read first to understand the code?
+
+## How Data Flows
+Trace how data moves through the system. Use a simple example if possible: "When a user does X, the code does Y, then Z happens."
+
+## Key Things to Know
+List 3-5 important concepts or patterns someone needs to understand to work effectively with this code.
+
+Keep your language simple and approachable. Use analogies when they help clarify complex concepts.

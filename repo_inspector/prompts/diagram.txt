@@ -1,0 +1,23 @@
+Based on the repository analysis below, generate a Mermaid flowchart diagram showing the system architecture.
+
+Repository Analysis:
+{analysis}
+
+Requirements for the diagram:
+1. Use Mermaid flowchart syntax (flowchart TD for top-down or flowchart LR for left-right)
+2. Show major components/modules as nodes
+3. Show data flow direction with arrows
+4. Include external dependencies (databases, APIs, etc.) as distinct node shapes
+5. Keep it readable - aim for 5-15 nodes maximum
+6. Use clear, concise labels
+
+Output ONLY the Mermaid diagram code, starting with "```mermaid" and ending with "```". Do not include any other text.
+
+Example format:
+```mermaid
+flowchart TD
+    A[CLI Entry] --> B[Core Logic]
+    B --> C[Data Layer]
+    C --> D[(Database)]
+    B --> E[External API]
+```
